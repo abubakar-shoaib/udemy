@@ -1,0 +1,152 @@
+{
+  "id": "f009e8af-d98c-42d0-9f33-259ff5c523ae",
+  "version": "2.0",
+  "name": "udemy-new",
+  "url": "https://www.udemy.com",
+  "tests": [{
+    "id": "a08b2d49-f671-443e-82ef-200183b19532",
+    "name": "test_main",
+    "commands": [{
+      "id": "20dcd529-2650-4279-af3e-4d71d35c1f5f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d62966a5-6a76-4558-9fd3-6a6c32890319",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85c13d29-1162-40b2-a390-f982de1890fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop-header-module--gap-auth-button--f25sS > .ud-btn-primary > span",
+      "targets": [
+        ["css=.desktop-header-module--gap-auth-button--f25sS > .ud-btn-primary > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[7]/a/span", "xpath:idRelative"],
+        ["xpath=//div[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28620ec0-0a01-4650-93da-937f908b356d",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--1",
+      "targets": [
+        ["id=form-group--1", "id"],
+        ["name=fullname", "name"],
+        ["css=#form-group--1", "css:finder"],
+        ["xpath=//input[@id='form-group--1']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f98a4e-eb53-462d-a664-432b51b62f1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--1",
+      "targets": [
+        ["id=form-group--1", "id"],
+        ["name=fullname", "name"],
+        ["css=#form-group--1", "css:finder"],
+        ["xpath=//input[@id='form-group--1']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Abubakar Shoaib"
+    }, {
+      "id": "27d0883f-85ac-4814-bb6c-c78a1ae05918",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--3",
+      "targets": [
+        ["id=form-group--3", "id"],
+        ["name=email", "name"],
+        ["css=#form-group--3", "css:finder"],
+        ["xpath=//input[@id='form-group--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "abubakarphp@gmail.com"
+    }, {
+      "id": "9f2c1f62-ff8e-4194-8d22-f2e374e8f943",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-group--5",
+      "targets": [
+        ["id=form-group--5", "id"],
+        ["name=password", "name"],
+        ["css=#form-group--5", "css:finder"],
+        ["xpath=//input[@id='form-group--5']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9503bbca-a06e-4e5d-91a8-15fd31ebf342",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-group--5",
+      "targets": [
+        ["id=form-group--5", "id"],
+        ["name=password", "name"],
+        ["css=#form-group--5", "css:finder"],
+        ["xpath=//input[@id='form-group--5']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Shhamim03@"
+    }, {
+      "id": "8ebf85e3-3c02-4fa9-b39d-f8673040a51c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auth-layout--auth-grid-layout--E7OfM",
+      "targets": [
+        ["css=.auth-layout--auth-grid-layout--E7OfM", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div", "xpath:idRelative"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ad4f72-1a3a-4a13-ad79-ec8fd4068f57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-btn-brand > span",
+      "targets": [
+        ["css=.ud-btn-brand > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c7fc58e-bdce-43f3-b790-6357d5284b99",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ud-btn-brand",
+      "targets": [
+        ["css=.ud-btn-brand", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/main/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c94d2274-2b3a-4a57-bfce-14505e295957",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a08b2d49-f671-443e-82ef-200183b19532"]
+  }],
+  "urls": ["https://www.udemy.com/"],
+  "plugins": []
+}
